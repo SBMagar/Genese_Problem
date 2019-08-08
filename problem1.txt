@@ -1,6 +1,6 @@
 def get_sum;
   set sum = 0;
-    for NUM in range of 1 to 10
+    for NUM in range of 1 to 1000
       if NUM mod 3 = 0 or if NUM mod 5 = 0:
         add NUM to sum;
     return sum
